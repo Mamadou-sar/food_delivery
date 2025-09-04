@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery/pages/onboarding/onboarding_screen.dart';
 
 import 'constants/colors.dart';
 
@@ -18,10 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: TColors.primary),
       ),
-      home: const Scaffold(
-        body: Center(child: Text('Hello, World!')),
-        backgroundColor: Color(0xffffffff),
-      ),
+      home: OnboardingScreen(),
     );
   }
 }
