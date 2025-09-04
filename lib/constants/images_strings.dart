@@ -4,7 +4,7 @@ class TImages {
   static const String visa = 'assets/images/Visa.png';
   static const String mastercard = 'assets/images/MasterCard.png';
   static const String bg = 'assets/images/BG.png';
-  static const String splash = 'assets/images/Splash.png';
+  static const String splash = 'assets/images/splash.png';
   static const String trackOrder = 'assets/images/TrackOrder.png';
   static const String group2644 = 'assets/images/Group2644.png';
   static const String bgAsset = 'assets/images/BGAsset.png';
@@ -14,6 +14,7 @@ class TImages {
   static const String onboarding1 = 'assets/images/onboarding1.png';
   static const String onboarding2 = 'assets/images/onboarding2.png';
   static const String onboarding3 = 'assets/images/onboarding3.png';
+  static const String onboarding4 = 'assets/images/onboarding4.png';
 
   // Social Media Icons
   static const String google = 'assets/images/google.png';

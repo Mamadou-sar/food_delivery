@@ -18,7 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: TColors.primary),
       ),
-      home: const Scaffold(body: Center(child: Text('Hello, World!'))),
+      home: const Scaffold(
+        body: Center(child: Text('Hello, World!')),
+        backgroundColor: Color(0xffffffff),
+      ),
     );
   }
 }
